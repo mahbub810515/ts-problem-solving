@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 function getTicketPrice(age) {
-    if (age > 5) {
+    if (age < 5) {
         return 0;
     }
     else if (age >= 5 && age <= 12) {
@@ -12,6 +12,7 @@ function getTicketPrice(age) {
     }
     return 120;
 }
+//test cases
 console.log(getTicketPrice(3));
 console.log(getTicketPrice(10));
 console.log(getTicketPrice(25));
