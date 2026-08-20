@@ -11,8 +11,16 @@ const getStudentResult = (students) => {
         result,
     };
 };
+//test casses 
 console.log(getStudentResult({
     name: "Rafi",
     marks: [80, 75, 90, 85]
 }));
+// another example: 
+console.log(getStudentResult({
+    name: "Nabil",
+    marks: [30, 35, 40, 25]
+}));
+// Expected output: 
+// { name: "Nabil", average: 32.5, result: "Failed" }
 //# sourceMappingURL=getStudentResult.js.map
