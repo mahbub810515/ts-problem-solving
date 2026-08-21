@@ -2,8 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const findProducts = (products, category) => {
     const returnProduct = products.filter((item) => {
-        if (item.category === category)
-            return item.name;
+        return item.category === category;
     });
     return returnProduct;
 };
